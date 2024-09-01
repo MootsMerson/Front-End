@@ -1,12 +1,12 @@
 import React from "react";
-import SideBar from './components/SideBar/SideBar';;
+import Documentacao from './components/Documentacao/Documentacao';
 import '../src/App.css';
 
 
 export default function App() {
   return (
     <div className="app">
-      <SideBar />
+      <Documentacao />
     </div>
   );
 }

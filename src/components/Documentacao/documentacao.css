@@ -1,0 +1,32 @@
+.documentacao{
+    display: flex;
+    border: 1px solid red;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.container-1-documentacao{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    border: 1px solid blue;
+    padding: 20px;
+    width: 100vw;
+}
+
+.texto-1{
+    font-size: 24px;
+    font-weight: 400;
+    border: 1px solid green;
+    text-align: justify;
+    
+}
+
+.video-1{
+    border: 1px solid black;
+    width: 550px;
+    height: 300px;
+}
+
+
