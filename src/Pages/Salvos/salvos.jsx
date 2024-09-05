@@ -4,12 +4,14 @@ import './salvos.css'
 function salvos(){
 
     return(
-        <div className='pai bg'>
+<div className='bg pai'>
+      <SideBar />
+        <div className='titulo'>
               <div className='title'>
                 <h2 className='colecoes'>Coleções</h2>
-              </div>
-              <SideBar />
-              </div>
+              </div>      
+        </div>
+        </div>
     )
 }
 

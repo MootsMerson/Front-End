@@ -1,14 +1,37 @@
-
-.title{
-    display: flex;
-    justify-content: center;
-    border: solid 1px;
-    width: 500px;
-    height: 120px;
+*{
+    margin:0;
+    padding: 0;
+    width: 100%;
 }
 
 .colecoes{
-    font-size: larger;
+    font-size: 40px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    
+}
+
+
+.title{
+    display: flex;
+    align-items: center;
+    border: solid 1px;
+    width: 600px;
+    height: 100px;
+    margin-top: 40px;
+    border-radius: 13px;
+    background-color: rgba(217, 110, 217, 0.2) ; 
+    box-shadow: 0px 3px 5px 0px rgb(0, 0, 0, 0.5);
+
+}
+
+.pai{
+    display: flex;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
 }
