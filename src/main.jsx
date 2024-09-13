@@ -9,6 +9,7 @@ import Principal from "./Pages/Principal/Principal";
 import TelaLogin from "./Pages/TelaLogin/TelaLogin";
 import TelaCadastro from "./Pages/TelaCadastro/TelaCadastro";
 import TelaSalvos from "./Pages/Salvos/Salvos";
+import ModalSeguidores from "./Components/ModalSeguidores/ModalSeguidores";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -19,6 +20,7 @@ createRoot(document.getElementById("root")).render(
           <Route path="/" element={<Principal />} />
           <Route path="telaCadastro" element={<TelaCadastro />} />
           <Route path="salvos" element={<TelaSalvos />} />
+          <Route path="seguidores" element={<ModalSeguidores />} />
         </Route>
       </Routes>
     </BrowserRouter>
