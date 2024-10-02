@@ -9,16 +9,19 @@ export default function modalNovoPost() {
           <h1>Nova Publicação</h1>
           <hr className="listraTitulo"></hr>
         </div>
-        <div className="perfilNovoPost">
-          <img src={perfil} alt="perfil"></img>
-          <p>Leonardo</p>
+        <div className="containerPerfilNovoPost">
+          <div className="perfilNovoPost">
+            <img src={perfil} alt="perfil"></img>
+            <p>Leonardo</p>
+          </div>
           <div className="textoNovoPost">
             <input
               type="text"
-              placeholder="Escreva o que você está pensando..."
+              placeholder="No que você esta pensando..."
             ></input>
           </div>
         </div>
+
         <div className="botaoPublicar">
           <button>Publicar</button>
         </div>
